@@ -1,0 +1,16 @@
+{
+  "name": "upload-file",
+  "version": "1.0.0",
+  "description": "",
+  "main": "file.js",
+  "dependencies": {
+    "cropperjs": "^1.5.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

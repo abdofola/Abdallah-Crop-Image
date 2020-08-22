@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>file</title>
+        <link href="./node_modules/cropperjs/dist/cropper.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <input type="file" id="fileElem"  accept="image/*" style="display:none">
+        <a href="#" id="fileSelect" role="button">Select some files</a>
+        <div id="fileList">
+            <p>No files selected!</p>
+        </div>
+        <h3>Result</h3>
+        <button class="button"> crop</button>
+        <div id="prev"></div>
+       
+
+
+        <!-- ************** js ********** -->
+        <script src="./node_modules/cropperjs/dist/cropper.js"></script>
+
+        <script src="./file.js" type="text/javascript"></script>
+    </body>
+
+</html>
